@@ -1,123 +1,137 @@
-<div align="center">
-
-# Botpress Cloud
-
-[![Discord](https://img.shields.io/badge/Join_Community-white?color=7289da&label=Discord&labelColor=6a7ec1&logo=discord&logoColor=FFF)](https://discord.gg/botpress)
-[![YouTube Subscribe](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/c/botpress)
-[![Documentation](https://img.shields.io/badge/Documentation-blue?logo=typescript&logoColor=white)](https://docs.botpress.cloud)
-[![@botpress/sdk](https://img.shields.io/badge/@botpress%2fsdk-black?logo=npm)](https://www.npmjs.com/package/@botpress/sdk)
-[![@botpress/cli](https://img.shields.io/badge/@botpress%2fcli-black?logo=npm)](https://www.npmjs.com/package/@botpress/cli)
-
-[Botpress](https://botpress.com) is the ultimate platform for building **next-generation chatbots** and assistants powered by OpenAI. Start building incredible assistants for your projects or businesses at lightning speed.
-
-[Getting started](#getting-started) •
-[Cloud](https://app.botpress.cloud) •
-[Documentation](https://botpress.com/docs) •
-[Integrations](#integrations) •
-[Agents](#agents)
-
-<img src="https://user-images.githubusercontent.com/10071388/248040379-8aee1b03-c483-4040-8ee0-741554310e88.png" width="800">
-  
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div align="center" dir="auto">
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Botpress 云</font></font></h1><a id="user-content-botpress-cloud" class="anchor" aria-label="永久链接：Botpress 云" href="#botpress-cloud"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://discord.gg/botpress" rel="nofollow"><img src="https://camo.githubusercontent.com/31d2efcb3234b77792c5a9406029cdfba7b5dfa550b66a6775f88fb58e04c60c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e5f436f6d6d756e6974792d77686974653f636f6c6f723d373238396461266c6162656c3d446973636f7264266c6162656c436f6c6f723d366137656331266c6f676f3d646973636f7264266c6f676f436f6c6f723d464646" alt="不和谐" data-canonical-src="https://img.shields.io/badge/Join_Community-white?color=7289da&amp;label=Discord&amp;labelColor=6a7ec1&amp;logo=discord&amp;logoColor=FFF" style="max-width: 100%;"></a>
+<a href="https://www.youtube.com/c/botpress" rel="nofollow"><img src="https://camo.githubusercontent.com/d54c0e2673b4037f098967bd075ffade6534aef8cabe5e6b4d3b45e16e3b265e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f596f75547562652d7265643f6c6f676f3d796f7574756265266c6f676f436f6c6f723d7768697465" alt="YouTube 订阅" data-canonical-src="https://img.shields.io/badge/YouTube-red?logo=youtube&amp;logoColor=white" style="max-width: 100%;"></a>
+<a href="https://docs.botpress.cloud" rel="nofollow"><img src="https://camo.githubusercontent.com/56932adbfe7ba1966e5f7f31284b417ac13963df302b6f4a064b4f33a06e426a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f63756d656e746174696f6e2d626c75653f6c6f676f3d74797065736372697074266c6f676f436f6c6f723d7768697465" alt="文档" data-canonical-src="https://img.shields.io/badge/Documentation-blue?logo=typescript&amp;logoColor=white" style="max-width: 100%;"></a>
+<a href="https://www.npmjs.com/package/@botpress/sdk" rel="nofollow"><img src="https://camo.githubusercontent.com/9444ce9778d6760737cc72f2b0961ffc94f39121b233f40910efb185fac7efda/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f40626f74707265737325326673646b2d626c61636b3f6c6f676f3d6e706d" alt="@botpress/sdk" data-canonical-src="https://img.shields.io/badge/@botpress%2fsdk-black?logo=npm" style="max-width: 100%;"></a>
+<a href="https://www.npmjs.com/package/@botpress/cli" rel="nofollow"><img src="https://camo.githubusercontent.com/858ab894b856cbfb2cc31896ab4914bdd6f72c283bcbcd2e8aa2ef7f6d3ce00d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f40626f747072657373253266636c692d626c61636b3f6c6f676f3d6e706d" alt="@botpress/cli" data-canonical-src="https://img.shields.io/badge/@botpress%2fcli-black?logo=npm" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://botpress.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Botpress是构建由 OpenAI 提供支持的</font></font></a><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下一代聊天机器人</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和助手的终极平台</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">开始以闪电般的速度为您的项目或业务构建令人难以置信的助手。</font></font></p>
+<p dir="auto"><a href="#getting-started"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://app.botpress.cloud" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://botpress.com/docs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="#integrations"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="#agents"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代理</font></font></a></p>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/10071388/248040379-8aee1b03-c483-4040-8ee0-741554310e88.png"><img src="https://user-images.githubusercontent.com/10071388/248040379-8aee1b03-c483-4040-8ee0-741554310e88.png" width="800" style="max-width: 100%;"></a>
 </div>
-
-## This Repository
-
-This repository contains:
-
-- [**Integrations**](#integrations) – all public integrations on the [Botpress Hub](https://app.botpress.cloud/hub) maintained by Botpress
-- [**Devtools**](#devtools) – all Botpress Cloud dev tools (CLI, SDK, API Client)
-- [**Bots**](#bots) - some example of bots "_as code_" made only using the SDK and the CLI
-- [**Agents**](#agents) – all public agents on the [Botpress Studio](https://studio.botpress.cloud) **(coming soon)**
-
-## Contributing
-
-We love contributions from the community!
-
-We welcome pull requests and issues relevant for any code contained in this repository. See the [This Repository](#this-repository) section for more details.
-
-For bugs or features related to the API, Botpress Dashboard or the Botpress Studio, please talk to us on [Discord](https://discord.gg/botpress) instead!
-
-For any problem related to on-premise Botpress v12, please see the [Botpress v12 repository](https://github.com/botpress/v12).
-
-## Integrations
-
-The [`/integrations`](./integrations) folder contains all our public and open-source integrations. We invite the community to contribute their own integrations to Botpress Cloud.
-
-### Integration Development
-
-To develop an integration, start by installing the [Botpress CLI](https://www.npmjs.com/package/@botpress/cli):
-
-```sh
-npm install -g @botpress/cli # for npm
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个存储库</font></font></h2><a id="user-content-this-repository" class="anchor" aria-label="永久链接：这个存储库" href="#this-repository"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该存储库包含：</font></font></p>
+<ul dir="auto">
+<li><a href="#integrations"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">–</font><font style="vertical-align: inherit;">由 Botpress 维护的</font></font><a href="https://app.botpress.cloud/hub" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Botpress Hub上的所有公共集成</font></font></a><font style="vertical-align: inherit;"></font></li>
+<li><a href="#devtools"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发工具</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">– 所有 Botpress 云开发工具（CLI、SDK、API 客户端）</font></font></li>
+<li><a href="#bots"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">机器人</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font><font style="vertical-align: inherit;">仅使用 SDK 和 CLI 制作的</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">机器人“作为代码”的一些示例</font></font></em><font style="vertical-align: inherit;"></font></li>
+<li><a href="#agents"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特工</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">–</font></font><a href="https://studio.botpress.cloud" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Botpress Studio上的所有公共特工</font></font></a> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（即将推出）</font></font></strong></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2><a id="user-content-contributing" class="anchor" aria-label="永久链接：贡献" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们喜欢社区的贡献！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们欢迎与此存储库中包含的任何代码相关的拉取请求和问题。</font><font style="vertical-align: inherit;">有关更多详细信息，请参阅</font></font><a href="#this-repository"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此存储库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部分。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于与 API、Botpress Dashboard 或 Botpress Studio 相关的错误或功能，请在</font></font><a href="https://discord.gg/botpress" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Discord</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上与我们联系！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于与本地 Botpress v12 相关的任何问题，请参阅</font></font><a href="https://github.com/botpress/v12"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Botpress v12 存储库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成</font></font></h2><a id="user-content-integrations" class="anchor" aria-label="永久链接：集成" href="#integrations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><a href="/botpress/botpress/blob/master/integrations"><code>/integrations</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹包含我们所有的公共和开源集成。</font><font style="vertical-align: inherit;">我们邀请社区贡献自己的 Botpress Cloud 集成。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">整合发展</font></font></h3><a id="user-content-integration-development" class="anchor" aria-label="永久链接：集成开发" href="#integration-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要开发集成，请首先安装</font></font><a href="https://www.npmjs.com/package/@botpress/cli" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Botpress CLI</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>npm install -g @botpress/cli <span class="pl-c"><span class="pl-c">#</span> for npm</span>
+yarn global add @botpress/cli <span class="pl-c"><span class="pl-c">#</span> for yarn</span>
+pnpm install -g @botpress/cli <span class="pl-c"><span class="pl-c">#</span> for pnpm</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="npm install -g @botpress/cli # for npm
 yarn global add @botpress/cli # for yarn
-pnpm install -g @botpress/cli # for pnpm
-```
+pnpm install -g @botpress/cli # for pnpm" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，在您选择的目录中创建一个新的集成：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>bp init</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="bp init" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此命令将从建议的模板之一生成集成。</font></font></p>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此步骤可以在您选择的任何目录和 git 存储库中执行。</font><font style="vertical-align: inherit;">您不必分叉此存储库来创建集成。</font></font></em></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><code>integration.definition.ts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，您可以修改分别位于和文件</font><font style="vertical-align: inherit;">中的集成的定义和实现</font></font><code>src/index.ts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关如何开发集成的更多信息，请参阅</font></font><a href="https://botpress.com/docs/developers/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成准备就绪后，您可以使用以下命令将其部署到工作区：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>bp deploy</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="bp deploy" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这会将您的集成部署到您的工作区并使其可供所有机器人使用。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">公开您的集成</font></font></h3><a id="user-content-making-your-integration-public" class="anchor" aria-label="永久链接：公开您的集成" href="#making-your-integration-public"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，所有集成对于它们已部署到的工作区都是私有的。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要将您的集成提交到 Botpress Hub 并向社区公开可用，请按照这些</font></font><a href="/botpress/botpress/blob/master/integrations"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">向此存储库发出拉取请求。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">机器人</font></font></h2><a id="user-content-bots" class="anchor" aria-label="永久链接：机器人" href="#bots"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该文件夹包含</font><font style="vertical-align: inherit;">仅使用客户端、SDK 和 CLI 制作的“</font><em><font style="vertical-align: inherit;">代码</font></em></font><a href="/botpress/botpress/blob/master/bots"><code>/bots</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">”机器人示例。</font></font><em><font style="vertical-align: inherit;"></font></em><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这不是构建机器人的推荐方法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，也不能替代 Botpress Studio。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然而，对于想要以更具编程性的方式构建机器人的经验丰富的开发人员来说，它可能很有用。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于 Studio 和 CLI 都使用相同的底层原语，Botress 团队也在内部使用它。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发工具</font></font></h2><a id="user-content-devtools" class="anchor" aria-label="永久链接：开发工具" href="#devtools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<table>
+<thead>
+<tr>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包裹</font></font></strong></th>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述</font></font></strong></th>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></strong></th>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码</font></font></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.npmjs.com/package/@botpress/cli" rel="nofollow"><code>@botpress/cli</code></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建和部署私有或公共集成</font></font></td>
+<td><a href="https://botpress.com/docs/integration/cli/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></td>
+<td><a href="/botpress/botpress/blob/master/packages/cli"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码</font></font></a></td>
+</tr>
+<tr>
+<td><a href="https://www.npmjs.com/package/@botpress/client" rel="nofollow"><code>@botpress/client</code></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Botpress API 的类型安全客户端</font></font></td>
+<td><a href="/botpress/botpress/blob/master"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></td>
+<td><a href="/botpress/botpress/blob/master"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码</font></font></a></td>
+</tr>
+<tr>
+<td><a href="https://www.npmjs.com/package/@botpress/sdk" rel="nofollow"><code>@botpress/sdk</code></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于构建集成的内部包</font></font></td>
+<td><a href="/botpress/botpress/blob/master"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></td>
+<td><a href="/botpress/botpress/blob/master"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码</font></font></a></td>
+</tr>
+</tbody>
+</table>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代理商</font></font></h2><a id="user-content-agents" class="anchor" aria-label="永久链接： 代理" href="#agents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即将推出。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本地发展</font></font></h2><a id="user-content-local-development" class="anchor" aria-label="永久链接：地方发展" href="#local-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">先决条件</font></font></h3><a id="user-content-prerequisites" class="anchor" aria-label="永久链接：先决条件" href="#prerequisites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发环境需要安装以下工具：</font></font></p>
+<ul dir="auto">
+<li><a href="https://git-scm.com/" rel="nofollow"><code>git</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Git 是一个免费开源的分布式版本控制系统。</font></font></li>
+<li><a href="https://nodejs.org/en/" rel="nofollow"><code>node</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Node.js® 是基于 Chrome V8 JavaScript 引擎构建的 JavaScript 运行时。</font></font></li>
+<li><a href="https://pnpm.io/" rel="nofollow"><code>pnpm</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：PNPM 是一个快速、节省磁盘空间的包管理器。</font></font></li>
+<li><a href="https://tilt.dev/" rel="nofollow"><code>tilt</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Tilt 是一个解决微服务开发难题的工具包。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从源头构建</font></font></h3><a id="user-content-building-from-sources" class="anchor" aria-label="永久链接：从源头构建" href="#building-from-sources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"><span class="pl-c">#</span> Clone the repository</span>
+git clone https://github.com/botpress/botpress.git
+<span class="pl-c1">cd</span> botpress
 
-Then, in the directory of your choice, create a new integration:
+<span class="pl-c"><span class="pl-c">#</span> Build Sources</span>
+tilt ci
 
-```sh
-bp init
-```
-
-This command will generate a integration from one of the proposed templates.
-
-_This step can be executed in any directory and git repository of your choice. You don't have to fork this repository to create an integration._
-
-You can then modify both the definition and implementation of your integration respectively located in the `integration.definition.ts` and `src/index.ts` files.
-
-For more information on how to develop an integration, please refer to the [Documentation](https://botpress.com/docs/developers/).
-
-Once your integration is ready, you can deploy it to your workspace using the following command:
-
-```sh
-bp deploy
-```
-
-This will deploy your integration to your workspace and make it available to all your bots.
-
-### Making your Integration Public
-
-By default, all integrations are private to the workspace they have been deployed in.
-
-To submit your integration to the Botpress Hub and make it publicly available to the community, please make a pull request to this repository by following these [Integration Contribution guidelines](./integrations).
-
-## Bots
-
-The [`/bots`](./bots) folder contains examples of bots "_as code_" made only using the client, the SDK and the CLI.
-
-**This is not the recommended way to build bots** and is in no way a replacement for the Botpress Studio.
-
-However it can be useful for experienced developers who want to build bots in a more programmatic way.
-
-It is also used internally by the Botress team since the Studio and CLI both use the same underlying primitives.
-
-## Devtools
-
-| **Package**                                                          | **Description**                                 | **Docs**                                           | **Code**               |
-| -------------------------------------------------------------------- | ----------------------------------------------- | -------------------------------------------------- | ---------------------- |
-| [`@botpress/cli`](https://www.npmjs.com/package/@botpress/cli)       | Build and deploy private or public integrations | [Docs](https://botpress.com/docs/integration/cli/) | [Code](./packages/cli) |
-| [`@botpress/client`](https://www.npmjs.com/package/@botpress/client) | Type-safe client to consume the Botpress APIs   | [Docs]()                                           | [Code]()               |
-| [`@botpress/sdk`](https://www.npmjs.com/package/@botpress/sdk)       | Internal package used by to build integrations  | [Docs]()                                           | [Code]()               |
-
-## Agents
-
-Coming soon.
-
-## Local Development
-
-### Prerequisites
-
-The development environment requires the following tools to be installed:
-
-- [`git`](https://git-scm.com/): Git is a free and open source distributed version control system.
-- [`node`](https://nodejs.org/en/): Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-- [`pnpm`](https://pnpm.io/): PNPM is a fast, disk space efficient package manager.
-- [`tilt`](https://tilt.dev/): Tilt is a toolkit for fixing the pains of microservice development.
-
-### Building from sources
-
-```sh
-# Clone the repository
+<span class="pl-c"><span class="pl-c">#</span> Run Checks</span>
+pnpm run check</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# Clone the repository
 git clone https://github.com/botpress/botpress.git
 cd botpress
 
@@ -125,11 +139,16 @@ cd botpress
 tilt ci
 
 # Run Checks
-pnpm run check
-```
-
-## Licensing
-
-All packages in this repository are open-source software and licensed under the [MIT License](LICENSE). By contributing in this repository, you agree to release your code under this license as well.
-
-Let's build the future of chatbot development together! 🤖🚀
+pnpm run check" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可</font></font></h2><a id="user-content-licensing" class="anchor" aria-label="永久链接：许可" href="#licensing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此存储库中的所有软件包都是开源软件，并根据</font></font><a href="/botpress/botpress/blob/master/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MIT License</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获得许可。</font><font style="vertical-align: inherit;">通过在此存储库中做出贡献，您也同意根据此许可证发布您的代码。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">让我们共同打造聊天机器人开发的未来！</font><font style="vertical-align: inherit;">🤖🚀</font></font></p>
+</article></div>
